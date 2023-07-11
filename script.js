@@ -38,6 +38,7 @@ function game() {
       computerScore++;
     }
   }
+     console.log(`CURRENT SCORE: Player= ${playerScore}, Computer= ${computerScore}`);
 
   if (playerScore > computerScore) {
     console.log("===================");
