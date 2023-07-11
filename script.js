@@ -30,7 +30,7 @@ function game() {
     );
     const computerSelection = getComputerChoice();
     const result = playRound(playerSelection, computerSelection);
-    console.log("................");
+    console.log(".................");
     console.log(result);
     if (result.includes("win")) {
       playerScore++;
@@ -40,13 +40,13 @@ function game() {
   }
 
   if (playerScore > computerScore) {
-    console.log("==================");
+    console.log("===================");
     console.log("You win the game!");
   } else if (playerScore < computerScore) {
-    console.log("==================");
+    console.log("===================");
     console.log("You fail the game!");
   } else {
-    console.log("==================");
+    console.log("===================");
     console.log("It is same choices!");
   }
 }
